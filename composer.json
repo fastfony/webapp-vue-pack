@@ -1,0 +1,41 @@
+{
+    "name": "fastfony/webapp-vue-pack",
+    "type": "symfony-pack",
+    "license": "MIT",
+    "description": "An other webapp pack on top of the default skeleton. With webpack-encore-bundle and necessary things for Vue single-file component (i.e. .vue)",
+    "require": {
+        "symfony/asset": "*",
+        "symfony/debug-pack": "*",
+        "symfony/doctrine-messenger": "*",
+        "symfony/expression-language": "*",
+        "symfony/form": "*",
+        "symfony/http-client": "*",
+        "symfony/intl": "*",
+        "symfony/mailer": "*",
+        "symfony/maker-bundle": "^1.0",
+        "symfony/mime": "*",
+        "symfony/monolog-bundle": "^3.1",
+        "symfony/notifier": "*",
+        "symfony/orm-pack": "*",
+        "symfony/process": "*",
+        "symfony/profiler-pack": "*",
+        "symfony/security-bundle": "*",
+        "symfony/serializer-pack": "*",
+        "symfony/string": "*",
+        "symfony/test-pack": "*",
+        "symfony/translation": "*",
+        "symfony/twig-pack": "*",
+        "symfony/validator": "*",
+        "symfony/web-link": "*",
+        "symfony/webpack-encore-bundle": "^1.12"
+    },
+    "require-dev": {
+        "symfony/debug-pack": "*",
+        "symfony/profiler-pack": "*",
+        "symfony/maker-bundle": "^1.0",
+        "symfony/test-pack": "*"
+    },
+    "conflict": {
+        "symfony/framework-bundle": "<6.3"
+    }
+}
