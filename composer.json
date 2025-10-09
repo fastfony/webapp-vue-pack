@@ -14,7 +14,7 @@
         "symfony/mailer": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/mime": "*",
-        "symfony/monolog-bundle": "^3.1",
+        "symfony/monolog-bundle": "^3.10",
         "symfony/notifier": "*",
         "symfony/orm-pack": "*",
         "symfony/process": "*",
@@ -25,9 +25,10 @@
         "symfony/test-pack": "*",
         "symfony/translation": "*",
         "symfony/twig-pack": "*",
+        "symfony/ux-vue": "*",
         "symfony/validator": "*",
         "symfony/web-link": "*",
-        "symfony/webpack-encore-bundle": "^1.12"
+        "symfony/webpack-encore-bundle": "^2.3"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
@@ -36,6 +37,7 @@
         "symfony/test-pack": "*"
     },
     "conflict": {
+        "symfony/asset-mapper": "*",
         "symfony/framework-bundle": "<6.3"
     }
 }
