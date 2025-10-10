@@ -1,4 +1,6 @@
-# Webapp-vue-pack
+# Webapp pack for Symfony with Webpack Encore for Vue (Single-file component)
+
+[![Latest Stable Version](https://poser.pugx.org/fastfony/webapp-vue-pack/v/stable)](https://packagist.org/packages/fastfony/webapp-vue-pack) [![Total Downloads](https://poser.pugx.org/fastfony/webapp-vue-pack/downloads)](https://packagist.org/packages/fastfony/webapp-vue-pack) [![License](https://poser.pugx.org/fastfony/webapp-vue-pack/license)](https://packagist.org/packages/fastfony/webapp-vue-pack)
 
 An other pack to install on top of the default Symfony skeleton. Include webpack-encore-bundle and necessary things for Vue single-file component (i.e. .vue)
 

@@ -3,6 +3,12 @@
     "type": "symfony-pack",
     "license": "MIT",
     "description": "An other webapp pack on top of the default skeleton. With webpack-encore-bundle and necessary things for Vue single-file component (i.e. .vue)",
+    "keywords": ["symfony", "pack", "webpack-encore", "webpack", "vue", "ux-vue", "sfc"],
+    "authors": [
+        {
+            "name": "neothone"
+        }
+    ],
     "require": {
         "symfony/asset": "*",
         "symfony/debug-pack": "*",
