@@ -1,8 +1,8 @@
 {
-    "name": "fastfony/webapp-vue-pack",
+    "name": "fastfony/webapp-webpack-encore-vue-sfc-pack",
     "type": "symfony-pack",
     "license": "MIT",
-    "description": "An other webapp pack on top of the default skeleton. With webpack-encore-bundle and necessary things for Vue single-file component (i.e. .vue)",
+    "description": "An other webapp pack on top of the default skeleton for compiling Vue single-file component (i.e. .vue) with Webpack Encore.",
     "keywords": ["symfony", "pack", "webpack-encore", "webpack", "vue", "ux-vue", "sfc"],
     "authors": [
         {
@@ -10,37 +10,8 @@
         }
     ],
     "require": {
-        "symfony/asset": "*",
-        "symfony/debug-pack": "*",
-        "symfony/doctrine-messenger": "*",
-        "symfony/expression-language": "*",
-        "symfony/form": "*",
-        "symfony/http-client": "*",
-        "symfony/intl": "*",
-        "symfony/mailer": "*",
-        "symfony/maker-bundle": "^1.0",
-        "symfony/mime": "*",
-        "symfony/monolog-bundle": "^3.10",
-        "symfony/notifier": "*",
-        "symfony/orm-pack": "*",
-        "symfony/process": "*",
-        "symfony/profiler-pack": "*",
-        "symfony/security-bundle": "*",
-        "symfony/serializer-pack": "*",
-        "symfony/string": "*",
-        "symfony/test-pack": "*",
-        "symfony/translation": "*",
-        "symfony/twig-pack": "*",
-        "symfony/ux-vue": "*",
-        "symfony/validator": "*",
-        "symfony/web-link": "*",
-        "symfony/webpack-encore-bundle": "^2.3"
-    },
-    "require-dev": {
-        "symfony/debug-pack": "*",
-        "symfony/profiler-pack": "*",
-        "symfony/maker-bundle": "^1.0",
-        "symfony/test-pack": "*"
+        "fastfony/webapp-webpack-encore-pack": "^1.0",
+        "symfony/ux-vue": "^v2.30"
     },
     "conflict": {
         "symfony/asset-mapper": "*",

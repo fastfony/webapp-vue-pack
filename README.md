@@ -1,6 +1,6 @@
 # Webapp pack for Symfony with Webpack Encore for Vue (Single-file component)
 
-[![Latest Stable Version](https://poser.pugx.org/fastfony/webapp-vue-pack/v/stable)](https://packagist.org/packages/fastfony/webapp-vue-pack) [![Total Downloads](https://poser.pugx.org/fastfony/webapp-vue-pack/downloads)](https://packagist.org/packages/fastfony/webapp-vue-pack) [![License](https://poser.pugx.org/fastfony/webapp-vue-pack/license)](https://packagist.org/packages/fastfony/webapp-vue-pack)
+[![Latest Stable Version](https://poser.pugx.org/fastfony/webapp-webpack-encore-vue-sfc-pack/v/stable)](https://packagist.org/packages/fastfony/webapp-webpack-encore-vue-sfc-pack) [![Total Downloads](https://poser.pugx.org/fastfony/webapp-webpack-encore-vue-sfc-pack/downloads)](https://packagist.org/packages/fastfony/webapp-webpack-encore-vue-sfc-pack) [![License](https://poser.pugx.org/fastfony/webapp-webpack-encore-vue-sfc-pack/license)](https://packagist.org/packages/fastfony/webapp-webpack-encore-vue-sfc-pack)
 
 An other pack to install on top of the default Symfony skeleton. Include webpack-encore-bundle and necessary things for Vue single-file component (i.e. .vue)
 
@@ -12,7 +12,7 @@ After [creating Symfony Applications](https://symfony.com/doc/current/setup.html
 
 ```
 composer remove symfony/asset-mapper symfony/stimulus-bundle symfony/ux-turbo
-composer require fastfony/webapp-vue-pack
+composer require fastfony/webapp-webpack-encore-vue-sfc-pack
 npm install -D vue-loader --force
 
 ```
@@ -32,3 +32,6 @@ sed -i '' 's/\.enableVueLoader()/.enableVueLoader(() => {}, { runtimeCompilerBui
 ### Informations
 
 With webpack-encore-bundle and **without AssetMapper** you can still use [Stimulus & Symfony UX](https://symfony.com/doc/current/frontend/encore/simple-example.html#stimulus-symfony-ux) and [Turbo](https://symfony.com/doc/current/frontend/encore/simple-example.html#turbo-lightning-fast-single-page-application-experience)!
+
+You can also complete your pack with :
+* [fastfony/tailwind-webpack-encore-pack](https://packagist.org/packages/fastfony/tailwind-webpack-encore-pack) for requiring TailwindCSS.
